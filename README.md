@@ -50,9 +50,8 @@ mapping directly from image pixels.
 
 ### How well it predicts
 
-<div align="center">
-<img src="assets/nowcast_scatter.png" width="480">
-</div>
+<img width="490" height="490" alt="nowcast_scatter" src="https://github.com/user-attachments/assets/1bb26366-4f96-4d45-83aa-81b1816382e1" />
+
 
 Each dot is one test image: x-axis is the actual power, y-axis is what the
 model predicted. Points near the red dashed line are accurate. The model
@@ -61,19 +60,12 @@ partly-cloudy conditions are genuinely ambiguous from a single frame.
 
 ### A full test day, minute by minute
 
-<div align="center">
-<img src="assets/nowcast_timeseries.png" width="800">
-</div>
+
 
 The model (blue) follows the shape of the real power curve (grey) through a
 volatile, partly-cloudy day — catching the big ramps even if it smooths out
 some of the sharpest spikes.
 
-### Where the model is confident vs. unsure
-
-<div align="center">
-<img src="assets/nowcast_confusion.png" width="420">
-</div>
 
 Grouping power into **Low / Medium / High** bands: the model is excellent at
 telling Low and High apart (a sky is either clearly clear or clearly
@@ -93,9 +85,8 @@ forecasting, which simply assumes "power in 15 minutes = power right now."
 
 ### Full evaluation panel
 
-<div align="center">
-<img src="assets/forecast_panel.png" width="900">
-</div>
+<img width="1289" height="889" alt="forecast_panel" src="https://github.com/user-attachments/assets/04dec09b-5101-4267-a1a0-33c8c8ea6124" />
+
 
 Four views of the same result: **top-left** — predicted vs. actual scatter;
 **top-right** — a 300-sample slice showing the model (red) tracking real
