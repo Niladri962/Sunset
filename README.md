@@ -95,26 +95,7 @@ the error distribution is centered near zero, meaning no strong bias;
 **bottom-right** — the model beats persistence on both sunny and cloudy
 conditions.
 
-### Training convergence
 
-<div align="center">
-<img src="assets/forecast_training_curve.png" width="480">
-</div>
-
-Validation loss drops sharply in the first few epochs and levels off —
-early stopping catches the best checkpoint before overfitting sets in.
-
-### Where the model is confident vs. unsure
-
-<div align="center">
-<img src="assets/forecast_confusion.png" width="420">
-</div>
-
-Same Low/Medium/High breakdown as the nowcast. Forecasting is harder, so
-accuracy is lower overall (**48%**), but the pattern is the same: strongest
-at the High-power extreme, weakest in the ambiguous Medium band.
-
----
 
 ## The model architecture
 
