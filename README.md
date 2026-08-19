@@ -31,9 +31,9 @@ array is producing:
 
 ## Results at a glance
 
-<div align="center">
-<img src="assets/summary_comparison.png" width="850">
-</div>
+
+<img width="1930" height="580" alt="summary_comparison" src="https://github.com/user-attachments/assets/fd76fdf6-50fa-4d0c-8642-db720b65e844" />
+
 
 The nowcast is more accurate than the forecast — expected, since estimating
 the present is easier than predicting the future. Both models explain a
